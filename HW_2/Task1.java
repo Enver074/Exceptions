@@ -9,7 +9,7 @@ public class Task1 {
         exception();
     }
     
-    public static void floatnum() {
+    private static void floatnum() {
         Scanner in = new Scanner(System.in);
         System.out.println("Введите дробное число: ");
             String strnum = in.nextLine();
@@ -21,7 +21,7 @@ public class Task1 {
         in.close();
     }
 
-    public static void exception(){
+    private static void exception(){
         try {
             floatnum();
         }
